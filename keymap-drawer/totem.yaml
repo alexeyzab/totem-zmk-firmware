@@ -77,7 +77,7 @@ layers:
   - '`'
   - \
   - {t: DEFAULT, h: toggle, type: held}
-  - {t: ▽, type: trans}
+  - {t: MEDIA/NAV, h: toggle}
   MEDIA/NAV:
   - ESC
   - PP
@@ -115,5 +115,5 @@ layers:
   - {t: LSHIFT, h: sticky}
   - {t: BSPC, h: LCTRL}
   - {t: SPACE, h: LALT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: SYMBOLS, h: toggle}
+  - {t: DEFAULT, h: toggle}

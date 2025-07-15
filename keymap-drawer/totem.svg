@@ -526,10 +526,13 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="-4" class="key held tap layer-activator">DEFAULT</text>
 </a><text x="0" y="24" class="key held hold">toggle</text>
 </g>
-<g transform="translate(596, 236)" class="key trans keypos-37">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key trans"/>
-<text x="0" y="-4" class="key trans tap">▽</text>
+<g transform="translate(596, 236)" class="key keypos-37">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-1.2em">MEDIA/</tspan><tspan x="0" dy="1.2em">NAV</tspan>
+</text>
+<text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
@@ -733,15 +736,19 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="-4" class="key tap">SPACE</text>
 <text x="0" y="24" class="key hold">LALT</text>
 </g>
-<g transform="translate(531, 245) rotate(-15.0)" class="key trans keypos-36">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key trans"/>
-<text x="0" y="-4" class="key trans tap">▽</text>
+<g transform="translate(531, 245) rotate(-15.0)" class="key keypos-36">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key"/>
+<a href="#SYMBOLS">
+<text x="0" y="-4" class="key tap layer-activator">SYMBOLS</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(596, 236)" class="key trans keypos-37">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key trans"/>
-<text x="0" y="-4" class="key trans tap">▽</text>
+<g transform="translate(596, 236)" class="key keypos-37">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key"/>
+<a href="#DEFAULT">
+<text x="0" y="-4" class="key tap layer-activator">DEFAULT</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
